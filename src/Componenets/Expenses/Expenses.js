@@ -19,7 +19,7 @@ function Expenses(props){
    
     <ExpensesFilter selected={filteredYear} onChangeFilter={filterChangeHandler}/>
     {
-      <ExpensesList items = {filtererdExpenses}/>
+      <ExpensesList item = {filtererdExpenses}/>
     }
      {/* <ExpenseItems title={props.items[0].title}                                                                                
       amount={props.items[0].amount} 
